@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.REBook" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="MySplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splishColor</item>
+        <item name="postSplashScreenTheme">@style/Theme.REBook</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splish_logo</item>
+        <item name="android:duration">2000</item>
+    </style>
+
+
+</resources>
